@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import  { useState } from 'react'
 import { useParams } from 'react-router'
 import { toDoList } from '../../store/toDo'
 import { Button, Input, Modal } from 'antd'
@@ -17,7 +17,7 @@ const Info = () => {
     let user = data.find((el:IData) => el.id == id)
     let {editUser} = toDoList()
     
-    let {handleChange, handleSubmit, resetForm, values, setFieldValue} = useFormik({
+    let {handleChange, handleSubmit, values, setFieldValue} = useFormik({
         initialValues: {
             name:"",
             age:0,

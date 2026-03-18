@@ -1,4 +1,3 @@
-import React from 'react'
 import { BrowserRouter, Route, Routes } from 'react-router'
 import "../src/Page/Info"
 import Info from '../src/Page/Info'

@@ -8,7 +8,7 @@ interface IData {
 }
 import { create } from "zustand";
 
-export const toDoList = create<any>((set, get) => ({
+export const toDoList = create<any>((set) => ({
      data: [
   {
     id: "1",
